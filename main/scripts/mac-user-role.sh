@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Check if the script is run as root
-if [ "$EUID" -ne 0 ]; then
-    echo "Please run as root"
-    exit 1
-fi
+# if [ "$EUID" -ne 0 ]; then
+#     echo "Please run as root"
+#     exit 1
+# fi
 
 # Check if the correct number of arguments are provided
 if [ $# -ne 2 ]; then

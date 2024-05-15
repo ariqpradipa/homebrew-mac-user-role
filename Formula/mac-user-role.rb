@@ -3,7 +3,7 @@ class MacUserRole < Formula
     homepage "https://arprd.com"
     url "https://raw.githubusercontent.com/ariqpradipa/homebrew-mac-user-role/main/main/scripts/mac-user-role.sh" # Change this to the path where your script is stored
     version "1.0.0"
-    sha256 "68bc174d9fc15fd255f4799f3e784f8d123c1d01f4f287ce71c71434c427bcc6" # Use the actual checksum you got
+    sha256 "ec55561c3ebd073313ba0b70ff839303898cb76e17eab5781d6e696081357cd8" # Use the actual checksum you got
   
     def install
       bin.install "mac-user-role.sh" => "mac-user-role"
